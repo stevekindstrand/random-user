@@ -11,6 +11,7 @@ let fetchRandomUser = () => {
 
 //Function som skriver ut all information i DOMen
 let userData = (data) => {
+    //rensar
     myDiv.innerHTML = "";
     
     let randomUser = data.results[0];
